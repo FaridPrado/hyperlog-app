@@ -1,0 +1,32 @@
+HYPERLOG 1.0.0 · PWA PARA ANDROID Y ESCRITORIO
+==============================================
+
+CONTENIDO
+- index.html: aplicación principal.
+- service-worker.js: funcionamiento sin conexión y actualización de caché.
+- manifest.webmanifest: instalación PWA.
+- icons/: iconos oficiales HYPERLOG 1.0.0 sin texto dentro del icono.
+- HYPERLOG_Respaldo_Local.html: copia del index para respaldo local.
+
+INSTALACIÓN / PUBLICACIÓN
+1. Publica todos los archivos manteniendo exactamente la estructura de carpetas.
+2. El sitio debe servirse por HTTPS para que pueda instalarse como PWA.
+3. En Android, abre la URL con Chrome y usa Ajustes > Instalar, o el menú de Chrome > Instalar aplicación.
+4. Tras la primera carga, HYPERLOG puede funcionar sin conexión.
+
+ACTUALIZACIÓN DESDE VERSIONES ANTERIORES
+- HYPERLOG 1.0.0 mantiene las mismas claves de almacenamiento, por lo que la rutina y el historial existentes se conservan.
+- No borres los datos del sitio ni desinstales la PWA antes de comprobar que HYPERLOG 1.0.0 cargó correctamente.
+- Para forzar la primera carga de esta versión puedes abrir: https://TU-DOMINIO/?v=1.0.0-r2
+
+DATOS
+- El progreso se guarda localmente con copia redundante en localStorage + IndexedDB.
+- Usa Ajustes > Datos > Copia de seguridad de forma periódica.
+- "Exportar datos" genera un archivo para Excel u otras hojas de cálculo.
+
+IDIOMAS
+- Español (predeterminado).
+- English (US).
+- El idioma puede elegirse durante la configuración inicial o en Ajustes.
+
+HYPERLOG 1.0.0
